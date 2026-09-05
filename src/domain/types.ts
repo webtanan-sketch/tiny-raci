@@ -1,0 +1,1 @@
+export interface TinyRaciActivity{id:string;activity:string;responsible:string[];accountable:string;consulted:string[];informed:string[];projectId?:string;createdAt:string;updatedAt:string}export interface RaciStorage{get<T>(k:string):Promise<T|null>;set<T>(k:string,v:T):Promise<void>}
